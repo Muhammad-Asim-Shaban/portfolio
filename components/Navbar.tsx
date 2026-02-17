@@ -37,6 +37,7 @@ const Navbar = () => {
 
     return (
         <>
+        
             <div className="sticky top-0 z-[4]">
                 <button
                     className={cn(
