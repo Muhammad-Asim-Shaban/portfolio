@@ -67,16 +67,15 @@ const AboutMe = () => {
                 <div className="grid md:grid-cols-12 mt-9">
                     <div className="md:col-span-5">
                         <p className="text-5xl slide-up-and-fade">
-                            Hi, I&apos;m Tajmirul.
+                            Hi, I&apos;m Asim Shaban.
                         </p>
                     </div>
                     <div className="md:col-span-7">
                         <div className="text-lg text-muted-foreground max-w-[450px]">
                             <p className="slide-up-and-fade">
-                                I&apos;m a frontend web developer dedicated to
-                                turning ideas into creative solutions. I
-                                specialize in creating seamless and intuitive
-                                user experiences.
+                                "I'm an AI Engineer who builds intelligent systems — from multi-agent travel planners to real-time computer vision applications. I specialize in LLM-powered applications using LangChain, RAG pipelines, and YOLO-based object detection that solve real problems.
+My work spans the full AI stack — orchestrating multi-agent workflows with n8n, training deep learning models for fraud detection and time-series forecasting, and deploying computer vision systems for real-time people and vehicle counting. I don't just prototype; I build AI that works in production."
+
                             </p>
                             <p className="mt-3 slide-up-and-fade">
                                 My approach focuses on creating scalable,

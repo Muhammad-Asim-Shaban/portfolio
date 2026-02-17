@@ -1,7 +1,7 @@
 'use client';
 import ArrowAnimation from '@/components/ArrowAnimation';
 import Button from '@/components/Button';
-import { GENERAL_INFO } from '@/lib/data';
+import { GENERAL_INFO,SOCIAL_LINKS } from '@/lib/data';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
@@ -42,23 +42,22 @@ const Banner = () => {
             >
                 <div className="max-md:grow max-md:flex flex-col justify-center items-start max-w-[544px]">
                     <h1 className="banner-title slide-up-and-fade leading-[.95] text-6xl sm:text-[80px] font-anton">
-                        <span className="text-primary">FRONTEND</span>
-                        <br /> <span className="ml-4">DEVELOPER</span>
+                        <span className="text-primary">AI</span>
+                        <br /> <span className="ml-4">ENGINEER</span>
                     </h1>
                     <p className="banner-description slide-up-and-fade mt-6 text-lg text-muted-foreground">
                         Hi! I&apos;m{' '}
                         <span className="font-medium text-foreground">
-                            Tajmirul
+                            Muhammad Asim Shaban
                         </span>
-                        . A creative Frontend Developer with 3+ years of
-                        experience in building high-performance, scalable, and
-                        responsive web solutions.
+                        . A creative AI Engineer with 1+ years of
+                        experience in building high-performance, scalable, AI solutions.
                     </p>
                     <Button
                         as="link"
                         target="_blank"
                         rel="noopener noreferrer"
-                        href={GENERAL_INFO.upworkProfile}
+                        href={SOCIAL_LINKS[1].url}
                         variant="primary"
                         className="mt-9 banner-button slide-up-and-fade"
                     >
@@ -69,7 +68,7 @@ const Banner = () => {
                 <div className="md:absolute bottom-[10%] right-[4%] flex md:flex-col gap-4 md:gap-8 text-center md:text-right">
                     <div className="slide-up-and-fade">
                         <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5">
-                            3+
+                            1+
                         </h5>
                         <p className="text-muted-foreground">
                             Years of Experience
@@ -83,12 +82,7 @@ const Banner = () => {
                             Completed Projects
                         </p>
                     </div>
-                    <div className="slide-up-and-fade">
-                        <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5">
-                            10K+
-                        </h5>
-                        <p className="text-muted-foreground">Hours Worked</p>
-                    </div>
+                    
                 </div>
             </div>
         </section>
